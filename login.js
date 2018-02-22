@@ -45,4 +45,4 @@ function login(appConfig, renderer, helper){
 	return router;
 }
 
-module.exports = router;
+module.exports = login;
