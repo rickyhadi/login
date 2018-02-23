@@ -1,4 +1,7 @@
-function login(appConfig, renderer, helper){
+function login(){
+	var appConfig = require('appconfig');
+	var renderer = require('renderer')();
+	var helper = require('helper')();
 	var express = require('express');
 	var router = express.Router();
 
